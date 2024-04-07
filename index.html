@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laura Barbosa Klein - Produtora e Desenvolvedora Frontend</title>
+
+  <link rel="stylesheet" href="src/css/font-awesome.css" />
+  <link rel="stylesheet" href="src/css/reset.css" />
+  <script src="https://kit.fontawesome.com/79721074c2.js" crossorigin="anonymous"></script>
+  
+  <!-- Global -->
+  <link rel="stylesheet" href="src/css/globais.css" />
+  <link rel="stylesheet" href="src/css/variaveis.css" />
+  <link rel="stylesheet" href="src/css/secoes/header.css" />
+  <link rel="stylesheet" href="src/css/secoes/home.css" />
+  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
+        <a href="#home">
+          <h1 class="logo">LK</h1>
+        </a>
+        <nav>
+          <input id="menu-hamburguer" type="checkbox" />
+
+          <label for="menu-hamburguer">
+            <div class="menu">
+              <span class="hamburguer"></span>
+            </div>
+          </label>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre-mim">Sobre mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Meus projetos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou a Laura Klein</h1>
+          <h2>Produtora e Desenvolvedora Frontend</h2>
+
+          <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/laurakleinstudios/" class="outer-shadow" target="_blank">
+              <i class="fab fa-linkedin-in"></i></a>
+            <a href="https://wa.me/5511989728939" class="outer-shadow" target="_blank">
+              <i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/FoxyShoptech" class="outer-shadow" target="_blank">
+              <i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/foxyshop.tech" class="outer-shadow" target="_blank">
+              <i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="src/imagens/foto-perfil.png" alt="foto do perfil da Laura" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="src/imagens/foto-perfil.png" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            Olá! Me chamo <strong>Laura Klein </strong> , sou produtora multimídia e desenvolvedora frontend formada!
+              Gosto MUITO da área de tecnologia e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
+          </p>
+
+          <p>
+            Estou sempre me desafiando com novos projetos e participando de comunidades de programação e audiovisual para buscar feedback de outros colégas de area. Além de tentar ajudar essas pessoas com o que eu já aprendi. 😁
+          </p>
+
+          <p>
+            Ah, gosto de jogos, filmes, séries, artesanato e outras nerdices. 💜
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="https://heyzine.com/flip-book/41e9bd9198.html" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades section" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
+        </div>
+      </div>
+
+      <div class="container-habilidades">
+        <div class="informacoes javascript">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <p>Proficiente em JavaScript, capaz de criar aplicações web interativas e dinâmicas, com conhecimento sólido em manipulação do DOM, gerenciamento de eventos e frameworks como React e Vue.js.</p>
+        </div>
+
+        <div class="informacoes html">
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <h3>HTML5</h3>
+          <p>Competente em HTML, habilidades sólidas na criação de estruturas semânticas para páginas web, com foco em layouts responsivos e acessíveis, integrando HTML5 e boas práticas de codificação. Familiaridade com CSS para estilização e integração com outras tecnologias front-end.</p>
+        </div>
+
+        <div class="informacoes css">
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <h3>CSS3</h3>
+          <p>Experiente em CSS3, com domínio em recursos como flexbox, grid layout e animações CSS, permitindo criar estilos modernos e responsivos para páginas web, além de utilizar pré-processadores como SASS e LESS.</p>
+        </div>
+
+        <div class="informacoes Illustrator">
+          <div class="logo">
+            <i class="devicon-illustrator-plain" id="illustrator"></i>
+          </div>
+          <h3>Illustrator</h3>
+          <p>Proficiente em Illustrator, habilidades sólidas na criação de ilustrações e designs gráficos vetoriais, com foco em logotipos, ícones, ilustrações e materiais de marketing.</p>
+        </div>
+
+        <div class="informacoes Premiere">
+          <div class="logo">
+            <i class="devicon devicon-premierepro-plain" id="premiere"></i>
+          </div>
+          <h3>Premiere Pro</h3>
+          <p>Experiente em Premiere Pro, habilidades avançadas na edição de vídeos, incluindo corte, correção de cores, aplicação de efeitos e edição de áudio, visando criar conteúdo de alta qualidade.</p>
+        </div>
+
+        <div class="informacoes Aftereffects">
+          <div class="logo">
+          <i class="devicon-aftereffects-plain" id="after"></i>
+          </div>
+          <h3>After Effects</h3>
+          <p>Competente em After Effects, com conhecimento em animações, composições e efeitos visuais para vídeos, capaz de criar motion graphics e efeitos especiais impressionantes</p>
+        </div>
+
+
+
+        <div class="informacoes github">
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <h3>GitHub</h3>
+          <p>Competente no GitHub, habilidades em gerenciamento de projetos, colaboração em equipe e uso de funcionalidades avançadas como GitHub Actions e GitHub Pages.</p>
+        </div>
+
+        <div class="informacoes Meta">
+          <div class="logo">
+            <i class="fa-brands fa-meta" id="meta"></i>
+          </div>
+          <h3>Meta Ads</h3>
+          <p>Proficiete em Meta Ads (Facebook Ads), com habilidades em criação, configuração e otimização de campanhas publicitárias no Facebook e Instagram, visando alcançar os objetivos de marketing definidos.</p>
+        </div>
+        
+        <div class="informacoes LinkedIn">
+          <div class="logo">
+            <i class="devicon-linkedin-plain" id="LinkedIn"></i>
+          </div>
+          <h3>LinkedIn</h3>
+          <p>Competente em LinkedIn, com habilidades em criação e otimização de perfis, criação de conteúdo relevante, networking e participação em grupos, visando fortalecer a presença profissional e desenvolver relacionamentos profissionais na plataforma.</p>
+        </div>
+
+        <div class="informacoes Canva">
+          <div class="logo">
+            <i class="devicon-canva-original" id="canva"></i>
+          </div>
+          <h3>Canva</h3>
+          <p>Experiente em Canva, capaz de criar designs gráficos de forma rápida e eficiente, incluindo cartazes, banners, apresentações e posts para redes sociais, utilizando as ferramentas e recursos disponíveis na plataforma.</p>
+        </div>
+
+        <div class="informacoes Excel">
+          <div class="logo">
+            <i class="fa-solid fa-file-excel" id="excel"></i>
+          </div>
+          <h3>Excel</h3>
+          <p>Experiente em Excel, com habilidades em criação e manipulação de planilhas, análise de dados, criação de gráficos e utilização de fórmulas avançadas para automação de processos e tomada de decisões.</p>
+        </div>
+
+        <div class="informacoes vscode">
+          <div class="logo">
+            <i class="devicon-vscode-plain" id="vscode"></i>
+          </div>
+          <h3>VS Code</h3>
+          <p>Proficiente no Visual Studio Code, com domínio em edição, depuração e versionamento. Capacidade de personalização e integração com ferramentas diversas. Experiência sólida em desenvolvimento de software, potencializando o VS Code para aumentar a produtividade e a eficiência no trabalho.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="projetos section" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
+
+      <div class="container-projetos">
+        <div class="projeto">        
+          <a href="https://github.com">
+            <img src="./src/imagens/projeto-gta.png" alt="Nome do projeto" />
+            <h3>Projeto 1</h3>
+            <div class="informacoes-projeto">          
+              <p>Projeto feito usando HTML, CSS e JavaScript</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>     
+          </a>
+        </div>
+
+        <div class="projeto">        
+          <a href="https://github.com">
+            <img src="./src/imagens/projeto-one-piece.png" alt="Nome do projeto" />
+            <h3>Projeto 2</h3>
+            <div class="informacoes-projeto">          
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>      
+          </a>          
+        </div>
+
+        <div class="projeto">     
+          <a href="https://github.com">
+            <img src="./src/imagens/projeto-x-men.png" alt="Nome do projeto" />
+            <h3>Projeto 3</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>   
+        </div>
+
+        <div class="projeto">
+          <a href="https://github.com">
+            <img src="./src/imagens/projeto-mini-portifolio.png" alt="Nome do projeto" />
+            <h3>Projeto 4</h3>
+            <div class="informacoes-projeto">
+              <p>Lorem ipsum</p>
+              <p>🔗 Ver no GitHub Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <h2>Me envie uma mensagem!</h2>
+      <div class="redes-sociais">
+        <a href="https://www.linkedin.com/in/laurakleinstudios/" class="outer-shadow" target="_blank">
+          <i class="fab fa-linkedin-in"></i></a>
+        <a href="https://wa.me/5511989728939" class="outer-shadow" target="_blank">
+          <i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/FoxyShoptech" class="outer-shadow" target="_blank">
+          <i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/foxyshop.tech" class="outer-shadow" target="_blank">
+          <i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  
+</body>
+
+</html>
